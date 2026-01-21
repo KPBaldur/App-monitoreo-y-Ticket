@@ -65,39 +65,35 @@ const CriticalAlerts: React.FC = () => {
         </h2>
         <span className="bg-red-100 text-red-700 text-xs font-bold px-2 py-0.5 rounded-full border border-red-200">5 Active</span>
       </div>
-      
+
       <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50/30 custom-scrollbar">
         {alerts.map((alert) => (
-          <div 
+          <div
             key={alert.id}
-            className={`bg-white border-l-4 rounded-lg p-4 shadow-sm flex flex-col gap-2 group hover:shadow-md transition-all cursor-pointer border-gray-100 ${
-              alert.type === 'critical' ? 'border-l-red-500' : 'border-l-yellow-500'
-            }`}
+            className={`bg-white border-l-4 rounded-lg p-4 shadow-sm flex flex-col gap-2 group hover:shadow-md transition-all cursor-pointer border-gray-100 ${alert.type === 'critical' ? 'border-l-red-500' : 'border-l-yellow-500'
+              }`}
           >
             <div className="flex justify-between items-start">
               <div>
                 <h3 className="font-bold text-gray-800 text-sm">{alert.branch}</h3>
                 <p className="text-xs text-gray-500">{alert.branchId}</p>
               </div>
-              <span 
-                className={`flex h-3 w-3 rounded-full ${
-                  alert.type === 'critical' 
-                  ? 'bg-red-500 animate-pulse shadow-[0_0_8px_rgba(239,68,68,0.6)]' 
+              <span
+                className={`flex h-3 w-3 rounded-full ${alert.type === 'critical'
+                  ? 'bg-red-500 animate-pulse shadow-[0_0_8px_rgba(239,68,68,0.6)]'
                   : 'bg-yellow-500'
-                }`} 
+                  }`}
               />
             </div>
-            
-            <div className={`rounded p-2 mt-1 border ${
-              alert.type === 'critical' ? 'bg-red-50 border-red-100 text-red-700' : 'bg-yellow-50 border-yellow-100 text-yellow-700'
-            }`}>
+
+            <div className={`rounded p-2 mt-1 border ${alert.type === 'critical' ? 'bg-red-50 border-red-100 text-red-700' : 'bg-yellow-50 border-yellow-100 text-yellow-700'
+              }`}>
               <div className="flex items-center gap-2 font-medium text-sm">
                 <AlertIcon type={alert.iconType} />
                 {alert.issue}
               </div>
-              <div className={`mt-1 flex justify-between text-xs ${
-                alert.type === 'critical' ? 'text-red-600/80' : 'text-yellow-600/80'
-              }`}>
+              <div className={`mt-1 flex justify-between text-xs ${alert.type === 'critical' ? 'text-red-600/80' : 'text-yellow-600/80'
+                }`}>
                 <span>{alert.downtimeLabel}:</span>
                 <span className="font-mono font-bold">{alert.downtimeValue}</span>
               </div>

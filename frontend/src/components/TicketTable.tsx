@@ -30,40 +30,39 @@ const TicketTable: React.FC = () => {
         </thead>
         <tbody className="divide-y divide-gray-100 text-sm">
           {tickets.map((ticket) => (
-            <tr 
-              key={ticket.id} 
+            <tr
+              key={ticket.id}
               className={`group hover:bg-gray-50 transition-colors cursor-pointer ${ticket.status === 'critical' ? 'bg-red-50/20 hover:bg-red-50/40' : ''}`}
               onClick={() => navigate('/tickets')}
             >
               <td className="px-6 py-3 align-middle">
                 {ticket.status === 'critical' && (
-                   <span className="inline-flex items-center gap-1 px-2 py-1 rounded bg-red-100 text-red-700 text-[10px] font-bold uppercase border border-red-200">
-                     <LinkIcon className="w-3 h-3" /> Critical
-                   </span>
+                  <span className="inline-flex items-center gap-1 px-2 py-1 rounded bg-red-100 text-red-700 text-[10px] font-bold uppercase border border-red-200">
+                    <LinkIcon className="w-3 h-3" /> Critical
+                  </span>
                 )}
                 {ticket.status === 'in-process' && (
-                    <span className="inline-flex items-center px-2 py-1 rounded bg-yellow-100 text-yellow-700 text-[10px] font-bold uppercase border border-yellow-200">
-                        In Process
-                    </span>
+                  <span className="inline-flex items-center px-2 py-1 rounded bg-yellow-100 text-yellow-700 text-[10px] font-bold uppercase border border-yellow-200">
+                    In Process
+                  </span>
                 )}
                 {ticket.status === 'waiting' && (
-                    <span className="inline-flex items-center px-2 py-1 rounded bg-gray-100 text-gray-600 text-[10px] font-bold uppercase border border-gray-200">
-                        Waiting
-                    </span>
+                  <span className="inline-flex items-center px-2 py-1 rounded bg-gray-100 text-gray-600 text-[10px] font-bold uppercase border border-gray-200">
+                    Waiting
+                  </span>
                 )}
                 {ticket.status === 'done' && (
-                    <span className="inline-flex items-center px-2 py-1 rounded bg-green-100 text-green-700 text-[10px] font-bold uppercase border border-green-200">
-                        Done
-                    </span>
+                  <span className="inline-flex items-center px-2 py-1 rounded bg-green-100 text-green-700 text-[10px] font-bold uppercase border border-green-200">
+                    Done
+                  </span>
                 )}
               </td>
               <td className="px-6 py-3">
                 <div className={`font-bold ${ticket.status === 'done' ? 'text-gray-400 line-through decoration-gray-400 font-medium' : 'text-gray-800'}`}>
-                    {ticket.subject}
+                  {ticket.subject}
                 </div>
-                <div className={`text-xs mt-0.5 flex items-center gap-1 ${
-                    ticket.isLinkedAlert ? 'text-red-500 font-medium' : 'text-gray-400'
-                }`}>
+                <div className={`text-xs mt-0.5 flex items-center gap-1 ${ticket.isLinkedAlert ? 'text-red-500 font-medium' : 'text-gray-400'
+                  }`}>
                   {ticket.isLinkedAlert && <AlertTriangle className="w-3 h-3" />}
                   {ticket.isLinkedAlert ? 'Linked Alert: ' : ''}{ticket.issueCode}
                 </div>
@@ -72,7 +71,7 @@ const TicketTable: React.FC = () => {
               <td className="px-6 py-3 text-right font-mono text-gray-500">{ticket.waitTime}</td>
               <td className="px-6 py-3 text-right">
                 <button className="text-gray-400 group-hover:text-primary transition-colors">
-                  {ticket.status === 'done' ? <Check className="w-4 h-4"/> : ticket.status === 'critical' ? <ExternalLink className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+                  {ticket.status === 'done' ? <Check className="w-4 h-4" /> : ticket.status === 'critical' ? <ExternalLink className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
                 </button>
               </td>
             </tr>

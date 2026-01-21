@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Base de datos de locales y actualizaciones
+config.json
+estado.json
+meraki_monitor.log
+meraki_monitor.log

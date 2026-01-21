@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, AlertTriangle, Link as LinkIcon, ExternalLink, MailWarning, Markunread } from 'lucide-react';
+import { Mail, AlertTriangle, Link as LinkIcon, ExternalLink, MailWarning } from 'lucide-react';
 
 const TicketSplitView: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const TicketSplitView: React.FC = () => {
           </div>
           <span className="text-[10px] font-bold bg-white text-red-600 px-2 py-0.5 rounded-full border border-red-200 shadow-sm">Oldest First</span>
         </div>
-        
+
         <div className="flex-1 overflow-y-auto p-3 space-y-3 custom-scrollbar">
           {/* Card 1 */}
           <div className="bg-white border-l-4 border-red-500 rounded-r-lg p-3 shadow-sm hover:shadow-md transition-all group cursor-pointer ring-1 ring-gray-100">
@@ -64,7 +64,7 @@ const TicketSplitView: React.FC = () => {
           </div>
           <span className="text-[10px] bg-gray-200 text-gray-600 px-2 py-0.5 rounded-full font-medium">Real-time</span>
         </div>
-        
+
         <div className="flex-1 overflow-y-auto divide-y divide-gray-50 custom-scrollbar">
           {[
             { title: "VPN Access issues for remote staff", time: "4h 12m", status: "Waiting", color: "yellow", from: "#49212 • Sales Team", dot: "bg-yellow-400" },
@@ -72,7 +72,7 @@ const TicketSplitView: React.FC = () => {
             { title: "Email Configuration Issue", time: "1h 10m", status: "Pending", color: "gray", from: "#49219 • User: j.doe", dot: "bg-gray-300" },
             { title: "POS System Restart Request", time: "45m", status: "In Process", color: "yellow", from: "#49220 • Helpdesk L1", dot: "bg-blue-500 animate-pulse" }
           ].map((item, idx) => (
-             <div key={idx} className="p-3 hover:bg-gray-50 transition-colors group cursor-pointer flex gap-3">
+            <div key={idx} className="p-3 hover:bg-gray-50 transition-colors group cursor-pointer flex gap-3">
               <div className="flex-shrink-0 pt-1">
                 <div className={`w-2 h-2 rounded-full mt-1.5 ${item.dot}`}></div>
               </div>
@@ -82,33 +82,32 @@ const TicketSplitView: React.FC = () => {
                   <span className="text-xs font-mono text-gray-500 bg-gray-100 px-1.5 rounded flex-shrink-0">{item.time}</span>
                 </div>
                 <div className="flex items-center gap-2 mt-1">
-                  <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border uppercase ${
-                      item.color === 'yellow' ? 'text-yellow-700 bg-yellow-50 border-yellow-100' :
+                  <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border uppercase ${item.color === 'yellow' ? 'text-yellow-700 bg-yellow-50 border-yellow-100' :
                       item.color === 'gray' ? 'text-gray-600 bg-gray-100 border-gray-200' :
-                      'text-blue-700 bg-blue-50 border-blue-200'
-                  }`}>{item.status}</span>
+                        'text-blue-700 bg-blue-50 border-blue-200'
+                    }`}>{item.status}</span>
                   <span className="text-[11px] text-gray-400">{item.from}</span>
                 </div>
               </div>
             </div>
           ))}
 
-            {/* Done Item */}
-            <div className="p-3 hover:bg-gray-50 transition-colors group cursor-pointer flex gap-3 opacity-60">
-                <div className="flex-shrink-0 pt-1">
-                    <span className="text-green-600">●</span>
-                </div>
-                <div className="flex-1 min-w-0">
-                    <div className="flex justify-between items-start">
-                        <h4 className="text-sm font-medium text-gray-500 line-through decoration-gray-400 truncate">Printer access restored</h4>
-                        <span className="text-xs font-mono text-gray-400">--</span>
-                    </div>
-                    <div className="flex items-center gap-2 mt-1">
-                        <span className="text-[10px] font-bold text-green-700 bg-green-50 px-1.5 py-0.5 rounded border border-green-200 uppercase">Done</span>
-                        <span className="text-[11px] text-gray-400">#49215 • Branch 01</span>
-                    </div>
-                </div>
+          {/* Done Item */}
+          <div className="p-3 hover:bg-gray-50 transition-colors group cursor-pointer flex gap-3 opacity-60">
+            <div className="flex-shrink-0 pt-1">
+              <span className="text-green-600">●</span>
             </div>
+            <div className="flex-1 min-w-0">
+              <div className="flex justify-between items-start">
+                <h4 className="text-sm font-medium text-gray-500 line-through decoration-gray-400 truncate">Printer access restored</h4>
+                <span className="text-xs font-mono text-gray-400">--</span>
+              </div>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="text-[10px] font-bold text-green-700 bg-green-50 px-1.5 py-0.5 rounded border border-green-200 uppercase">Done</span>
+                <span className="text-[11px] text-gray-400">#49215 • Branch 01</span>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
