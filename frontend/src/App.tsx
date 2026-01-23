@@ -48,8 +48,8 @@ const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
                 <button
                   onClick={() => setActiveTab('tickets')}
                   className={`flex items-center gap-3 px-6 py-4 border-b-2 transition-colors ${activeTab === 'tickets'
-                      ? 'border-primary bg-primary/5'
-                      : 'border-transparent hover:bg-gray-50'
+                    ? 'border-primary bg-primary/5'
+                    : 'border-transparent hover:bg-gray-50'
                     }`}
                 >
                   <div className={`p-1.5 rounded border ${activeTab === 'tickets' ? 'bg-blue-100 text-blue-600 border-blue-200' : 'bg-gray-100 text-gray-500 border-gray-200'
@@ -67,8 +67,8 @@ const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
                 <button
                   onClick={() => setActiveTab('stock')}
                   className={`flex items-center gap-3 px-6 py-4 border-b-2 transition-colors ${activeTab === 'stock'
-                      ? 'border-orange-500 bg-orange-50'
-                      : 'border-transparent hover:bg-gray-50'
+                    ? 'border-orange-500 bg-orange-50'
+                    : 'border-transparent hover:bg-gray-50'
                     }`}
                 >
                   <div className={`p-1.5 rounded border ${activeTab === 'stock' ? 'bg-orange-100 text-orange-600 border-orange-200' : 'bg-gray-100 text-gray-500 border-gray-200'
@@ -126,7 +126,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <div className="h-screen flex flex-col bg-[#f8f9fa] font-sans">
+      <div className="h-screen flex flex-col bg-corporate-light font-sans">
         <Header />
         <Routes>
           <Route path="/" element={

@@ -15,6 +15,12 @@ export default {
                     green: '#22c55e',
                     orange: '#f97316',
                     red: '#ef4444',
+                },
+                corporate: {
+                    primary: '#2e5d67', // Dark Teal from logo
+                    accent: '#1d9397',  // Bright Teal
+                    bg: '#dadfe2',      // Light Blue/Grey from image
+                    light: '#ecf2f5',   // Lighter version for main bg
                 }
             },
             fontFamily: {
