@@ -247,6 +247,14 @@
             "codigo_servicio": "IP Publica: 200.6.103.170, Interna: 10.10.9.2",
             "compania": "IIA",
             "telefono_compania": "22 840 1100"
+        },
+        {
+            "nombre": "Sucursal X21",
+            "ip": "192.168.0.130",
+            "ciudad": "Santiago",
+            "codigo_servicio": "XX-XX-XXXXXXXXX",
+            "compania": "Claro",
+            "telefono_compania": "800 000 171"
         }
     ],
     "intervalo_ping": 5,

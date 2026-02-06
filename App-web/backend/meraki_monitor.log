@@ -7378,3 +7378,31 @@ task: <Task cancelling name='Task-2' coro=<LifespanOn.main() running at C:\Users
 2026-01-26 16:51:44,102 - INFO - T307 Plaza Norte (Santiago) cambio estado a ONLINE
 2026-01-26 16:51:44,117 - INFO - T308 Angamos (Santiago) cambio estado a ONLINE
 2026-01-26 16:51:44,120 - INFO - T310 Belloto (Valparaiso) cambio estado a ONLINE
+2026-02-05 20:11:32,993 - INFO - Monitor iniciado (31 locales)
+2026-02-05 20:13:20,629 - INFO - Monitor iniciado (32 locales)
+2026-02-05 20:13:26,891 - INFO - T413 Maipu (Santiago) cambio estado a OFFLINE
+2026-02-05 20:13:31,020 - INFO - T413 Maipu (Santiago) cambio estado a ONLINE
+2026-02-05 20:16:32,398 - INFO - Monitor iniciado (32 locales)
+2026-02-05 20:16:33,901 - INFO - Sucursal X21 (Santiago) cambio estado a OFFLINE
+2026-02-05 20:18:43,890 - INFO - T311 Huerfanos (Santiago) cambio estado a OFFLINE
+2026-02-05 20:18:52,621 - INFO - T311 Huerfanos (Santiago) cambio estado a ONLINE
+2026-02-05 20:25:33,891 - INFO - T301 Temuco (Temuco) cambio estado a OFFLINE
+2026-02-05 20:32:52,626 - INFO - T301 Temuco (Temuco) cambio estado a ONLINE
+2026-02-05 20:36:38,894 - INFO - T405 Patio Centro (Santiago) cambio estado a OFFLINE
+2026-02-05 20:36:42,772 - INFO - T405 Patio Centro (Santiago) cambio estado a ONLINE
+2026-02-05 20:44:43,888 - INFO - T302 Nuñoa (Santiago) cambio estado a OFFLINE
+2026-02-05 20:44:47,675 - INFO - T302 Nuñoa (Santiago) cambio estado a ONLINE
+2026-02-05 20:46:53,900 - INFO - T414 Florida (Santiago) cambio estado a OFFLINE
+2026-02-05 20:46:53,901 - INFO - T300 Alto Las Condes (Santiago) cambio estado a OFFLINE
+2026-02-05 20:47:22,683 - INFO - T300 Alto Las Condes (Santiago) cambio estado a ONLINE
+2026-02-05 20:47:22,758 - INFO - T414 Florida (Santiago) cambio estado a ONLINE
+2026-02-05 20:48:08,897 - INFO - T301 Temuco (Temuco) cambio estado a OFFLINE
+2026-02-05 20:48:12,720 - INFO - T301 Temuco (Temuco) cambio estado a ONLINE
+2026-02-05 20:52:03,888 - INFO - T414 Florida (Santiago) cambio estado a OFFLINE
+2026-02-05 20:52:03,889 - INFO - T300 Alto Las Condes (Santiago) cambio estado a OFFLINE
+2026-02-05 20:52:32,847 - INFO - T414 Florida (Santiago) cambio estado a ONLINE
+2026-02-05 20:52:37,754 - INFO - T300 Alto Las Condes (Santiago) cambio estado a ONLINE
+2026-02-05 21:20:58,890 - INFO - T308 Angamos (Santiago) cambio estado a OFFLINE
+2026-02-05 21:21:03,485 - INFO - T308 Angamos (Santiago) cambio estado a ONLINE
+2026-02-05 21:21:08,894 - INFO - T302 Nuñoa (Santiago) cambio estado a OFFLINE
+2026-02-05 21:21:12,899 - INFO - T302 Nuñoa (Santiago) cambio estado a ONLINE

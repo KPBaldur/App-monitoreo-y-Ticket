@@ -7,9 +7,9 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 7.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 15:34:09",
+        "tiempo_respuesta": 9.0,
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 20:52:37",
         "cambios": false
     },
     "T301 Temuco": {
@@ -20,9 +20,9 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 15.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 16:49:24",
+        "tiempo_respuesta": 18.0,
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 20:48:12",
         "cambios": false
     },
     "T302 Nuñoa": {
@@ -33,9 +33,9 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 8.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 10:22:30",
+        "tiempo_respuesta": 11.0,
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 21:21:12",
         "cambios": false
     },
     "T303 Concepcion": {
@@ -46,8 +46,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 13.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 17.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:51:44",
         "cambios": false
     },
@@ -60,7 +60,7 @@
         "telefono_compania": "800 390 800",
         "activo": true,
         "tiempo_respuesta": 19.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:51:44",
         "cambios": false
     },
@@ -72,8 +72,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 5.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 7.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:51:44",
         "cambios": false
     },
@@ -85,8 +85,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 7.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 11.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:51:44",
         "cambios": false
     },
@@ -98,9 +98,9 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 22.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 16:51:44",
+        "tiempo_respuesta": 24.0,
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 21:21:03",
         "cambios": false
     },
     "T309 El Llano": {
@@ -111,8 +111,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 5.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 15.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 15:07:04",
         "cambios": false
     },
@@ -124,8 +124,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 8.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 9.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:51:44",
         "cambios": false
     },
@@ -137,9 +137,9 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 4.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 16:39:37",
+        "tiempo_respuesta": 7.0,
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 20:18:52",
         "cambios": false
     },
     "T312 EU Viña": {
@@ -151,7 +151,7 @@
         "telefono_compania": "800 390 800",
         "activo": true,
         "tiempo_respuesta": 9.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:45:00",
         "cambios": false
     },
@@ -163,8 +163,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 8.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -176,8 +176,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 14.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:29",
         "cambios": false
     },
@@ -189,8 +189,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 8.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 11:40:42",
         "cambios": false
     },
@@ -202,8 +202,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 7.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -215,8 +215,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 17.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 18.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 16:45:01",
         "cambios": false
     },
@@ -229,8 +229,8 @@
         "telefono_compania": "800 390 800",
         "activo": true,
         "tiempo_respuesta": 7.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 16:45:01",
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 20:36:42",
         "cambios": false
     },
     "T406 Antofagasta": {
@@ -241,8 +241,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 25.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 28.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -254,8 +254,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 9.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 11.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:42:30",
         "cambios": false
     },
@@ -267,8 +267,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 7.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -280,8 +280,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 5.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 7.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -294,7 +294,7 @@
         "telefono_compania": "800 000 171",
         "activo": true,
         "tiempo_respuesta": 8.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 15:57:40",
         "cambios": false
     },
@@ -306,8 +306,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 5.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 13:03:13",
         "cambios": false
     },
@@ -320,7 +320,7 @@
         "telefono_compania": "800 000 171",
         "activo": true,
         "tiempo_respuesta": 11.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "ultimo_check": "2026-02-05 21:26:22",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -332,9 +332,9 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 6.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 11:13:41",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:22",
+        "ultimo_cambio": "2026-02-05 20:13:31",
         "cambios": false
     },
     "T414 Florida": {
@@ -345,9 +345,9 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 8.0,
-        "ultimo_check": "2026-01-26 16:51:54",
-        "ultimo_cambio": "2026-01-26 10:22:30",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:23",
+        "ultimo_cambio": "2026-02-05 20:52:32",
         "cambios": false
     },
     "T415 Los Dominicos": {
@@ -358,8 +358,8 @@
         "compania": "Claro",
         "telefono_compania": "800 000 171",
         "activo": true,
-        "tiempo_respuesta": 7.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 10.0,
+        "ultimo_check": "2026-02-05 21:26:23",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -371,8 +371,8 @@
         "compania": "Entel",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 1.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 4.0,
+        "ultimo_check": "2026-02-05 21:26:23",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -384,8 +384,8 @@
         "compania": "GTD",
         "telefono_compania": "800 390 800",
         "activo": true,
-        "tiempo_respuesta": 5.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 8.0,
+        "ultimo_check": "2026-02-05 21:26:23",
         "ultimo_cambio": "2026-01-26 10:22:30",
         "cambios": false
     },
@@ -397,9 +397,22 @@
         "compania": "IIA",
         "telefono_compania": "22 840 1100",
         "activo": true,
-        "tiempo_respuesta": 4.0,
-        "ultimo_check": "2026-01-26 16:51:54",
+        "tiempo_respuesta": 8.0,
+        "ultimo_check": "2026-02-05 21:26:23",
         "ultimo_cambio": "2026-01-26 10:22:30",
+        "cambios": false
+    },
+    "Sucursal X21": {
+        "nombre": "Sucursal X21",
+        "ip": "192.168.0.140",
+        "ciudad": "Santiago",
+        "codigo_servicio": "XX-XX-XXXXXXXXX",
+        "compania": "Claro",
+        "telefono_compania": "800 000 171",
+        "activo": false,
+        "tiempo_respuesta": 0.0,
+        "ultimo_check": "2026-02-05 21:26:24",
+        "ultimo_cambio": "2026-02-05 20:16:33",
         "cambios": false
     }
 }
